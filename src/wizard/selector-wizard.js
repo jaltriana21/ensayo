@@ -73,7 +73,6 @@ const addUsers = (ev)=>{
 
 
 const deleteUsers = ()=>{
-    const getUsers = portafolio();
     let contentTable = document.querySelector('tbody');
     const btnUsers = document.getElementById('btn-users');
     const idcontentUser = contentTable.lastElementChild.getAttribute('id');
